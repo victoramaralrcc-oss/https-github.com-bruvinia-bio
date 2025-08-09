@@ -16,5 +16,4 @@ Este projeto foi construído com tecnologias web modernas e de fácil manutenç�
  * Página de Links: https://bruvinia.github.io/links/
  * Código Penal: https://bruvinia.github.io/penal.tjsp/
  * Processo Penal: https://bruvinia.github.io/cpp.tjsp/
- * (Continue adicionando os outros links aqui)
 Feito com ❤️ para ajudar nos estudos. Bons estudos e boa sorte na prova!

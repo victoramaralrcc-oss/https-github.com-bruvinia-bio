@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Estudos bruvinia - Links</title>
+    <!-- Tailwind CSS para estilização rápida -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonte do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Usando a fonte Inter como padrão */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Efeito de transição suave nos botões */
+        .link-button {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+
+    <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-2xl min-h-screen flex flex-col justify-center">
+        
+        <!-- Cabeçalho com avatar e título -->
+        <header class="text-center mb-8">
+            <img 
+                src="https://placehold.co/128x128/7c3aed/ffffff?text=E" 
+                alt="Avatar" 
+                class="w-24 h-24 sm:w-32 sm:h-32 rounded-full mx-auto mb-4 border-4 border-white dark:border-gray-700 shadow-lg">
+            <h1 class="text-2xl sm:text-3xl font-bold text-violet-600 dark:text-violet-400">Portal de Estudos</h1>
+            <p class="text-md sm:text-lg text-gray-600 dark:text-gray-400 mt-1">Links para materiais do concurso Escrevente TJSP</p>
+        </header>
+
+        <!-- Lista de Links -->
+        <main class="w-full">
+            <div class="space-y-4">
+                <!-- Link 1 -->
+                <a href="https://bruvinia.github.io/penal.tjsp/" target="_blank" rel="noopener noreferrer" class="link-button block w-full bg-white dark:bg-gray-800 p-4 rounded-lg text-center font-semibold shadow-md hover:bg-gray-50 dark:hover:bg-gray-700">
+                    Código Penal - Escrevente TJSP
+                </a>
+                
+                <!-- Link 2 -->
+                <a href="https://bruvinia.github.io/cpp.tjsp/" target="_blank" rel="noopener noreferrer" class="link-button block w-full bg-white dark:bg-gray-800 p-4 rounded-lg text-center font-semibold shadow-md hover:bg-gray-50 dark:hover:bg-gray-700">
+                    Código de Processo Penal - Escrevente TJSP
+                </a>
+
+                <!-- Link 3 -->
+                <a href="https://bruvinia.github.io/cpc.tjsp/" target="_blank" rel="noopener noreferrer" class="link-button block w-full bg-white dark:bg-gray-800 p-4 rounded-lg text-center font-semibold shadow-md hover:bg-gray-50 dark:hover:bg-gray-700">
+                    Código de Processo Civil - Escrevente TJSP
+                </a>
+
+                <!-- Link 4 -->
+                <a href="https://bruvinia.github.io/cf.tjsp/" target="_blank" rel="noopener noreferrer" class="link-button block w-full bg-white dark:bg-gray-800 p-4 rounded-lg text-center font-semibold shadow-md hover:bg-gray-50 dark:hover:bg-gray-700">
+                    Direito Constitucional - Escrevente TJSP
+                </a>
+
+                <!-- Link 5 -->
+                <a href="https://bruvinia.github.io/estatuto.tjsp/" target="_blank" rel="noopener noreferrer" class="link-button block w-full bg-white dark:bg-gray-800 p-4 rounded-lg text-center font-semibold shadow-md hover:bg-gray-50 dark:hover:bg-gray-700">
+                    Estatuto dos Funcionários Públicos Civis
+                </a>
+                
+                <!-- Link 6 -->
+                <a href="https://bruvinia.github.io/improbidade/" target="_blank" rel="noopener noreferrer" class="link-button block w-full bg-white dark:bg-gray-800 p-4 rounded-lg text-center font-semibold shadow-md hover:bg-gray-50 dark:hover:bg-gray-700">
+                    Lei de Improbidade Administrativa
+                </a>
+
+                <!-- Link 7 (Sem URL fornecida, usando # como placeholder) -->
+                <a href="#" target="_blank" rel="noopener noreferrer" class="link-button block w-full bg-white dark:bg-gray-800 p-4 rounded-lg text-center font-semibold shadow-md hover:bg-gray-50 dark:hover:bg-gray-700">
+                    Normas da Corregedoria Geral da Justiça
+                </a>
+            </div>
+        </main>
+
+        <!-- Rodapé -->
+        <footer class="text-center mt-8">
+            <p class="text-sm text-gray-500 dark:text-gray-400">@bruvinia</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
